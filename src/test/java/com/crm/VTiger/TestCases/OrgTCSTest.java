@@ -30,9 +30,8 @@ public class OrgTCSTest extends BaseClass{
 		NewOrgPageClass nop=new NewOrgPageClass(driver);
 		nop.industryDD(indType);
 
-		Thread.sleep(3000);
 		nop.saveButon();
-		
+		Thread.sleep(3000);
 //		OrganisationInfoPageClass oic=new OrganisationInfoPageClass(driver);
 //		oic.ValidateOrgName();
 
@@ -58,8 +57,9 @@ public class OrgTCSTest extends BaseClass{
 
 		npc.saveButon();
 
-		OrganisationInfoPageClass oipc=new OrganisationInfoPageClass(driver);
-		oipc.ValidateOrgName();
+//		OrganisationInfoPageClass oipc=new OrganisationInfoPageClass(driver);
+//		oipc.ValidateOrgName();
+		Thread.sleep(3000);
 		System.out.println("============= ORG VALIDATED============");
 		Reporter.log("Organisation validated", true);
 	}
