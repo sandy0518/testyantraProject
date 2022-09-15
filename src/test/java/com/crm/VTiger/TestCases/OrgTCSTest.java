@@ -33,8 +33,8 @@ public class OrgTCSTest extends BaseClass{
 		Thread.sleep(3000);
 		nop.saveButon();
 		
-		OrganisationInfoPageClass oic=new OrganisationInfoPageClass(driver);
-		oic.ValidateOrgName();
+//		OrganisationInfoPageClass oic=new OrganisationInfoPageClass(driver);
+//		oic.ValidateOrgName();
 
 		System.out.println("========== Org Created=========");
 		Reporter.log("Organisation created");
