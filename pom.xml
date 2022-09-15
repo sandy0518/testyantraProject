@@ -128,7 +128,7 @@
 					<version>3.0.0-M7</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>batch_testng.xml</suiteXmlFile>
+							<suiteXmlFile>testtestng.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
