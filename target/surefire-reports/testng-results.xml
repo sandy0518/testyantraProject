@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Organisation validated]]>
+    </line>
+    <line>
+      <![CDATA[Organisation created]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41698" started-at="2022-09-09T17:09:41 IST" finished-at="2022-09-09T17:10:23 IST">
+    <groups>
+      <group name="regression">
+        <method signature="OrgTCSTest.validateOrg()[pri:0, instance:com.crm.VTiger.TestCases.OrgTCSTest@706a04ae]" name="validateOrg" class="com.crm.VTiger.TestCases.OrgTCSTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="OrgTCSTest.creOrg()[pri:0, instance:com.crm.VTiger.TestCases.OrgTCSTest@553a3d88]" name="creOrg" class="com.crm.VTiger.TestCases.OrgTCSTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test-edge" duration-ms="37862" started-at="2022-09-09T17:09:41 IST" finished-at="2022-09-09T17:10:19 IST">
+      <class name="com.crm.VTiger.TestCases.OrgTCSTest">
+        <test-method status="PASS" signature="creConnWithDB()[pri:0, instance:com.crm.VTiger.TestCases.OrgTCSTest@706a04ae]" name="creConnWithDB" is-config="true" duration-ms="5" started-at="2022-09-09T17:09:41 IST" finished-at="2022-09-09T17:09:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creConnWithDB -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.crm.VTiger.TestCases.OrgTCSTest@706a04ae]" name="openBrowser" is-config="true" duration-ms="5168" started-at="2022-09-09T17:09:41 IST" finished-at="2022-09-09T17:09:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.crm.VTiger.TestCases.OrgTCSTest@706a04ae]" name="login" is-config="true" duration-ms="8239" started-at="2022-09-09T17:09:46 IST" finished-at="2022-09-09T17:09:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="validateOrg()[pri:0, instance:com.crm.VTiger.TestCases.OrgTCSTest@706a04ae]" name="validateOrg" duration-ms="21230" started-at="2022-09-09T17:09:55 IST" finished-at="2022-09-09T17:10:16 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Organisation validated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateOrg -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.crm.VTiger.TestCases.OrgTCSTest@706a04ae]" name="logout" is-config="true" duration-ms="3065" started-at="2022-09-09T17:10:16 IST" finished-at="2022-09-09T17:10:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.VTiger.TestCases.OrgTCSTest@706a04ae]" name="closeBrowser" is-config="true" duration-ms="103" started-at="2022-09-09T17:10:19 IST" finished-at="2022-09-09T17:10:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeConnWithDB()[pri:0, instance:com.crm.VTiger.TestCases.OrgTCSTest@706a04ae]" name="closeConnWithDB" is-config="true" duration-ms="0" started-at="2022-09-09T17:10:23 IST" finished-at="2022-09-09T17:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnWithDB -->
+      </class> <!-- com.crm.VTiger.TestCases.OrgTCSTest -->
+    </test> <!-- Test-edge -->
+    <test name="Test-chrome" duration-ms="41698" started-at="2022-09-09T17:09:41 IST" finished-at="2022-09-09T17:10:23 IST">
+      <class name="com.crm.VTiger.TestCases.OrgTCSTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.crm.VTiger.TestCases.OrgTCSTest@553a3d88]" name="openBrowser" is-config="true" duration-ms="5230" started-at="2022-09-09T17:09:41 IST" finished-at="2022-09-09T17:09:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.crm.VTiger.TestCases.OrgTCSTest@553a3d88]" name="login" is-config="true" duration-ms="8569" started-at="2022-09-09T17:09:46 IST" finished-at="2022-09-09T17:09:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="creOrg()[pri:0, instance:com.crm.VTiger.TestCases.OrgTCSTest@553a3d88]" name="creOrg" duration-ms="25262" started-at="2022-09-09T17:09:55 IST" finished-at="2022-09-09T17:10:20 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Organisation created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- creOrg -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.crm.VTiger.TestCases.OrgTCSTest@553a3d88]" name="logout" is-config="true" duration-ms="2473" started-at="2022-09-09T17:10:20 IST" finished-at="2022-09-09T17:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.VTiger.TestCases.OrgTCSTest@553a3d88]" name="closeBrowser" is-config="true" duration-ms="145" started-at="2022-09-09T17:10:23 IST" finished-at="2022-09-09T17:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.VTiger.TestCases.OrgTCSTest -->
+    </test> <!-- Test-chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

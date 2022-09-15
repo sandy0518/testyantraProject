@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="GenericLibrary.ListenerImp"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.VTiger.TestCases.CreateOrganisationwithIndustryType"/>
+      <class name="com.crm.VTiger.TestCases.CreateContactwithOrganisationTest"/>
+      <class name="com.crm.VTiger.TestCases.ValidateContactNameTest"/>
+      <class name="com.crm.VTiger.TestCases.ValidateOrganisationNameTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
