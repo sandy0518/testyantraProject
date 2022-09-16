@@ -31,7 +31,7 @@ public class OrgTCSTest extends BaseClass{
 		nop.industryDD(indType);
 
 		nop.saveButon();
-		Thread.sleep(3000);
+//		Thread.sleep(3000);
 //		OrganisationInfoPageClass oic=new OrganisationInfoPageClass(driver);
 //		oic.ValidateOrgName();
 
