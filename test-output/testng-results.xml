@@ -1,85 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-15T21:41:54 IST" name="Suite" finished-at="2022-09-15T21:43:20 IST" duration-ms="86789">
+  <suite started-at="2022-09-16T15:52:22 IST" name="Default suite" finished-at="2022-09-16T15:52:22 IST" duration-ms="534">
     <groups>
     </groups>
-    <test started-at="2022-09-15T21:41:54 IST" name="Test" finished-at="2022-09-15T21:43:20 IST" duration-ms="86789">
-      <class name="com.crm.VTiger.TestCases.ValidateOrganisationNameTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.crm.VTiger.TestCases.ValidateOrganisationNameTest@2892d68]" started-at="2022-09-15T21:42:53 IST" name="openBrowser" finished-at="2022-09-15T21:42:54 IST" duration-ms="1500" status="PASS">
+    <test started-at="2022-09-16T15:52:22 IST" name="Default test" finished-at="2022-09-16T15:52:22 IST" duration-ms="534">
+      <class name="jDBC.ConnectingToDB">
+        <test-method signature="readdataFromDataBase()[pri:0, instance:jDBC.ConnectingToDB@1de5f259]" started-at="2022-09-16T15:52:22 IST" name="readdataFromDataBase" finished-at="2022-09-16T15:52:22 IST" duration-ms="454" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.VTiger.TestCases.ValidateOrganisationNameTest@2892d68]" started-at="2022-09-15T21:42:54 IST" name="login" finished-at="2022-09-15T21:43:01 IST" duration-ms="7129" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="validateOrg()[pri:0, instance:com.crm.VTiger.TestCases.ValidateOrganisationNameTest@2892d68]" started-at="2022-09-15T21:43:01 IST" name="validateOrg" finished-at="2022-09-15T21:43:18 IST" duration-ms="16438" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateOrg -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.VTiger.TestCases.ValidateOrganisationNameTest@2892d68]" started-at="2022-09-15T21:43:18 IST" name="logout" finished-at="2022-09-15T21:43:20 IST" duration-ms="2485" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.VTiger.TestCases.ValidateOrganisationNameTest@2892d68]" started-at="2022-09-15T21:43:20 IST" name="closeBrowser" finished-at="2022-09-15T21:43:20 IST" duration-ms="149" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.crm.VTiger.TestCases.ValidateOrganisationNameTest -->
-      <class name="com.crm.VTiger.TestCases.CreateContactwithOrganisationTest">
-        <test-method is-config="true" signature="creConnWithDB()[pri:0, instance:com.crm.VTiger.TestCases.CreateContactwithOrganisationTest@368247b9]" started-at="2022-09-15T21:41:54 IST" name="creConnWithDB" finished-at="2022-09-15T21:41:54 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creConnWithDB -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.crm.VTiger.TestCases.CreateContactwithOrganisationTest@368247b9]" started-at="2022-09-15T21:41:54 IST" name="openBrowser" finished-at="2022-09-15T21:41:57 IST" duration-ms="3052" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.VTiger.TestCases.CreateContactwithOrganisationTest@368247b9]" started-at="2022-09-15T21:41:57 IST" name="login" finished-at="2022-09-15T21:42:05 IST" duration-ms="7886" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="contactTest()[pri:0, instance:com.crm.VTiger.TestCases.CreateContactwithOrganisationTest@368247b9]" started-at="2022-09-15T21:42:05 IST" name="contactTest" finished-at="2022-09-15T21:42:18 IST" duration-ms="13375" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.VTiger.TestCases.CreateContactwithOrganisationTest@368247b9]" started-at="2022-09-15T21:42:18 IST" name="logout" finished-at="2022-09-15T21:42:21 IST" duration-ms="2536" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.VTiger.TestCases.CreateContactwithOrganisationTest@368247b9]" started-at="2022-09-15T21:42:21 IST" name="closeBrowser" finished-at="2022-09-15T21:42:21 IST" duration-ms="147" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeConnWithDB()[pri:0, instance:com.crm.VTiger.TestCases.CreateContactwithOrganisationTest@368247b9]" started-at="2022-09-15T21:43:21 IST" name="closeConnWithDB" finished-at="2022-09-15T21:43:21 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeConnWithDB -->
-      </class> <!-- com.crm.VTiger.TestCases.CreateContactwithOrganisationTest -->
-      <class name="com.crm.VTiger.TestCases.ValidateContactNameTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.crm.VTiger.TestCases.ValidateContactNameTest@d86a6f]" started-at="2022-09-15T21:42:21 IST" name="openBrowser" finished-at="2022-09-15T21:42:22 IST" duration-ms="1466" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.VTiger.TestCases.ValidateContactNameTest@d86a6f]" started-at="2022-09-15T21:42:22 IST" name="login" finished-at="2022-09-15T21:42:29 IST" duration-ms="7226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="valContactname()[pri:0, instance:com.crm.VTiger.TestCases.ValidateContactNameTest@d86a6f]" started-at="2022-09-15T21:42:29 IST" name="valContactname" finished-at="2022-09-15T21:42:50 IST" duration-ms="20824" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- valContactname -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.VTiger.TestCases.ValidateContactNameTest@d86a6f]" started-at="2022-09-15T21:42:50 IST" name="logout" finished-at="2022-09-15T21:42:53 IST" duration-ms="2400" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.VTiger.TestCases.ValidateContactNameTest@d86a6f]" started-at="2022-09-15T21:42:53 IST" name="closeBrowser" finished-at="2022-09-15T21:42:53 IST" duration-ms="121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.crm.VTiger.TestCases.ValidateContactNameTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- readdataFromDataBase -->
+      </class> <!-- jDBC.ConnectingToDB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
