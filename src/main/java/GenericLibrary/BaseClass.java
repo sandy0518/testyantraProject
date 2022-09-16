@@ -58,7 +58,7 @@ public class BaseClass {
 	}
 	
 	@AfterMethod(groups= {"smoke","regression"})
-	public void logout() {
+	public void logout() throws InterruptedException {
 		System.out.println("=========Logging out from the Application===========");
 		HomePageClass hpc=new HomePageClass(driver);
 		hpc.logOut(driver);

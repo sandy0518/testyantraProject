@@ -52,9 +52,10 @@ public class HomePageClass {
 		orgLink.click();
 	}
 	
-	public void logOut(WebDriver driver) {
+	public void logOut(WebDriver driver) throws InterruptedException {
 		Actions action =new Actions(driver);
-		action.moveToElement(admImg).perform();
+		action.moveToElement(admImg).build().perform();
+		Thread.sleep(2000);
 		lOut.click();
 	}
 	
