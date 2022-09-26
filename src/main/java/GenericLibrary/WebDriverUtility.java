@@ -117,7 +117,11 @@ public class WebDriverUtility {
 		action.moveToElement(ele).perform();
 	}
 	
-	
+	/**
+	 * This method is used to switch window
+	 * @author saisandeep
+	 * @param driver
+	 */
 	public void switchWindow(WebDriver driver) {
 		Set<String> childWindow = driver.getWindowHandles();
 		System.out.println(childWindow);
