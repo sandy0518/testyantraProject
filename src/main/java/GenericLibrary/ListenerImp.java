@@ -16,11 +16,10 @@ import org.testng.ITestResult;
 public class ListenerImp extends BaseClass implements ITestListener {
 
 	public void onTestStart(ITestResult result) {
-		// TODO Auto-generated method stub
+		
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		// TODO Auto-generated method stub
 		
 	}
 

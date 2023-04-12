@@ -1,29 +1,13 @@
 package com.crm.VTiger.TestCases;
 
-import java.util.List;
-import java.util.Random;
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
-import org.testng.IRetryAnalyzer;
 import org.testng.annotations.Test;
 
 import GenericLibrary.BaseClass;
-import GenericLibrary.ExcelFileUtility;
 import GenericLibrary.JavaUtility;
-import GenericLibrary.PropertyFileUtility;
-import GenericLibrary.WebDriverUtility;
 import ObjectRepository.HomePageClass;
-import ObjectRepository.LoginPageClass;
 import ObjectRepository.NewOrgPageClass;
 import ObjectRepository.OrganisationInfoPageClass;
 import ObjectRepository.OrganisationsPageClass;
-import junit.framework.Assert;
 
 public class CreateOrganisationwithIndustryType extends BaseClass{
 	

@@ -1,6 +1,5 @@
 package SeleniumPackage;
 
-import java.awt.Window;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 

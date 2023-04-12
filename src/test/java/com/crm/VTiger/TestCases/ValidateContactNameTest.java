@@ -1,25 +1,13 @@
 package com.crm.VTiger.TestCases;
 
-import java.util.List;
-import java.util.Set;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 import GenericLibrary.BaseClass;
-import GenericLibrary.ExcelFileUtility;
-import GenericLibrary.JSONFileUtility;
 import GenericLibrary.JavaUtility;
-import GenericLibrary.WebDriverUtility;
 import ObjectRepository.ConInfoPageClass;
 import ObjectRepository.HomePageClass;
-import ObjectRepository.LoginPageClass;
 import ObjectRepository.NewConPageClass;
 
 public class ValidateContactNameTest extends BaseClass{

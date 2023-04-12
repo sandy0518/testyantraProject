@@ -7,7 +7,6 @@ import GenericLibrary.BaseClass;
 import GenericLibrary.JavaUtility;
 import ObjectRepository.HomePageClass;
 import ObjectRepository.NewOrgPageClass;
-import ObjectRepository.OrganisationInfoPageClass;
 import ObjectRepository.OrganisationsPageClass;
 
 public class OrgTCSTest extends BaseClass{

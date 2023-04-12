@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumPackage.ChromeOpTest">
+      <class name="com.crm.VTiger.TestCases.OrgTCSTest">
         <methods>
-          <include name="chromeOpTest"/>
+          <include name="closeConnWithDB"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="creOrg"/>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="creConnWithDB"/>
         </methods>
-      </class> <!-- SeleniumPackage.ChromeOpTest -->
+      </class> <!-- com.crm.VTiger.TestCases.OrgTCSTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
